@@ -1,5 +1,4 @@
 import React from "react";
-import person from "../../assets/person.JPG"
 import Footer from "../Footer";
 
 import './style.css';

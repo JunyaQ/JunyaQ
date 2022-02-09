@@ -5,7 +5,7 @@ import Main from '../../component/Main';
 import Nav from '../../component/Nav';
 import Portfolio from '../../component/Portfolio';
 import Resume from '../../component/Resume';
-import Footer from '../../component/Footer';
+// import Footer from '../../component/Footer';
 
 function Navuse() {
   const [currentPage, handlePageChange] = useState('Main');
