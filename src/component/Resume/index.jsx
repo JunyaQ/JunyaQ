@@ -1,6 +1,7 @@
 //import react from "react";
 import Footer from "../Footer";
-import resume from "../../assets/resume.pdf"
+import resume from "../../assets/resume.pdf";
+import './style.css';
 
 function Resume(){
     return(

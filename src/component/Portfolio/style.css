@@ -1,0 +1,92 @@
+/*project list*/
+:root{
+    --main-color1: #fe938c;
+    --main-color2:#e6b89c;
+    --main-color3:#ead2ac;
+    --main-color4:#9cafb7;
+    --main-color5: #4281a4;
+  }
+  
+  html,
+  body {
+    min-height: 100%;
+  }
+  
+  body {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+  }
+
+.project_name{
+    color: #4281a4;
+    text-align: center;
+  }
+  .link{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .project_img{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .row {
+   display: flex;
+   flex: 0 1 auto;
+   flex-wrap:wrap;
+   flex-direction: row;
+   justify-content: center;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 5px;
+    margin: 5px;
+    justify-content: auto;
+  }
+  
+  
+  .column {
+    width: 30%;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  .content {
+    background-color: gray;
+    padding: 10px;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .link:hover{
+  color: var(--main-color1);
+  }
+  .left{
+    float: left;
+    margin-left: 70px;
+    position: relative;
+    
+  }

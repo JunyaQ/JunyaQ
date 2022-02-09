@@ -1,0 +1,51 @@
+/*nav*/
+:root{
+    --main-color1: #fe938c;
+    --main-color2:#e6b89c;
+    --main-color3:#ead2ac;
+    --main-color4:#9cafb7;
+    --main-color5: #4281a4;
+  }
+  
+  html,
+  body {
+    min-height: 100%;
+  }
+  
+  body {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+  }
+
+.barul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--main-color1);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    
+  }
+  
+  .barli {
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .barli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .barli a:hover {
+    color: var(--main-color3);
+  }
+  
+  

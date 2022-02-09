@@ -1,6 +1,7 @@
 //import react from "react";
 import ProjectList from "../../utils/ProjectList"
 import Footer from "../Footer";
+import './style.css';
 //import projectimage from '../../assets/projects/projectimage.png'
 
 function Portfolio(){

@@ -6,6 +6,8 @@ import linkedin from '../../assets/in.JPG';
 import ProgressBar from "../../utils/Progressbar";
 import Footer from "../Footer";
 
+import './style.css'
+
 
 
 function About(){

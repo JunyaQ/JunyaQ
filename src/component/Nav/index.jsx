@@ -1,4 +1,5 @@
 import React from "react";
+import './style.css';
 function Nav(props){
  
 const navbar = ["Main","About","Portfolio","Contact","Resume"];
