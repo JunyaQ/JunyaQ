@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Footer from '../Footer';
+import{Form, Input, Button, TextArea} from 'semantic-ui-react';
+import './style.css'
 
 function Contact(){
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -15,8 +17,8 @@ function Contact(){
    
  
     return(
-<section>
-      <h1 className='contactme'>Contact me</h1>
+<section className='formsection'>
+      {/* <h1 className='contactme'>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div> 
           <label htmlFor="name">Name:</label>
@@ -36,7 +38,35 @@ function Contact(){
           </div>
         )}
         <button data-testid="button" type="submit">Submit</button>
-      </form>
+      </form> */}
+      <Form onSubmit={handleSubmit}>
+        <Form.Field
+        id='email'
+        control={Input}
+        label='Email'
+        name='user_email'
+        placeholder='please enter your email'
+        required={true}/>
+
+        <Form.Field
+        id='name'
+        control={Input}
+        label='Name'
+        name='user_name'
+        placeholder='please enter your name'
+        required={true}/>
+
+        <Form.TextArea
+        id='message'
+        control={Input}
+        label='Message'
+        name='user_message'
+        rows='15'
+        placeholder='Thank you for leaving me a message'
+        required={true}
+        />
+        <Button type='submit' color='green'>Send Message</Button>
+      </Form>
       
       <footer className="footer">
       <Footer></Footer>
