@@ -58,8 +58,8 @@ function Contact(){
 
         <Form.TextArea
         id='message'
-        control={Input}
         label='Message'
+        control={TextArea}
         name='user_message'
         rows='15'
         placeholder='Thank you for leaving me a message'
