@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/JunyaQ/static/css/main.fa979ecf.css",
+    "main.js": "/JunyaQ/static/js/main.98527adc.js",
+    "static/media/1.jpg": "/JunyaQ/static/media/1.8ea9e148cd104fc79387.jpg",
+    "static/media/2.jpg": "/JunyaQ/static/media/2.67164f71fa9d2aa7fc5a.jpg",
+    "static/media/person.JPG": "/JunyaQ/static/media/person.b7a302d7e5920892ba4c.JPG",
+    "static/media/0.jpg": "/JunyaQ/static/media/0.5ff07d7ec58c76a81e72.jpg",
+    "static/media/4.jpg": "/JunyaQ/static/media/4.da95797f11283e1b5860.jpg",
+    "static/media/6.jpg": "/JunyaQ/static/media/6.3b816f70b2962ef25e76.jpg",
+    "static/media/5.jpg": "/JunyaQ/static/media/5.4b30be718dd4de2f2ce4.jpg",
+    "static/media/3.jpg": "/JunyaQ/static/media/3.8d9fe4a1e2970875eabe.jpg",
+    "static/media/resume.pdf": "/JunyaQ/static/media/resume.129f4b71432fd0ad9c56.pdf",
+    "static/media/gmail.JPG": "/JunyaQ/static/media/gmail.638ec4b464c0650393f5.JPG",
+    "static/media/in.JPG": "/JunyaQ/static/media/in.46a1596950280bb8e74c.JPG",
+    "static/media/fb.JPG": "/JunyaQ/static/media/fb.d29daac2b7456aea98d5.JPG",
+    "index.html": "/JunyaQ/index.html",
+    "main.fa979ecf.css.map": "/JunyaQ/static/css/main.fa979ecf.css.map",
+    "main.98527adc.js.map": "/JunyaQ/static/js/main.98527adc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa979ecf.css",
+    "static/js/main.98527adc.js"
+  ]
+}
