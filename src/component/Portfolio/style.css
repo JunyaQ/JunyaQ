@@ -19,7 +19,7 @@
   }
 
 .project_name{
-    color: #4281a4;
+    color: var(--main-color1);
     text-align: center;
   }
   .link{
@@ -89,4 +89,11 @@
     margin-left: 70px;
     position: relative;
     
+  }
+  .Role, .Tools{
+    color: var(--main-color3);
+    font-size: 15px;
+  }
+  .project_description{
+    font-size: 20px;
   }

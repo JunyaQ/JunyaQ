@@ -22,47 +22,52 @@ return (
     <h1 className="mySkills">My Skills</h1>
     <div className="skillBar">
     <h5 className="item">HTML</h5> 
-    <ProgressBar bgcolor='#fe938c' completed='76' className="bar" ></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='99' className="bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">CSS</h5>
-    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='99'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">Javascript</h5>
-    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='99'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">Node</h5>
-    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='80'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">MySQL</h5>
-    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='80'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">MongoDB</h5>
-    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='80'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">React</h5>
-    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='80'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">JQuery</h5>
-    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='85'className="item bar" ></ProgressBar>
+    </div>
+
+    <div className="skillBar">
+    <h5 className="item">GraphQL</h5>
+    <ProgressBar bgcolor='#fe938c' completed='80'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">Java</h5>
-    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='90'className="item bar" ></ProgressBar>
     </div>
    
 </div>
@@ -73,7 +78,7 @@ return (
 <p>Hi,I am Junya Qiao, Innovative optimized solution seeker. Excited to be at the development phase of my new career as a web developer.</p>
 
 <a href='https://www.facebook.com/junya.qiao.9'><img src={fb} alt="facebook icon" className="icon"></img></a>
-<a href='https://www.linkedin.com/in/junya-q-219798193/'><img src={linkedin} alt="linkedin icon" className="icon"></img></a> 
+<a href='www.linkedin.com/in/junyaqiao'><img src={linkedin} alt="linkedin icon" className="icon"></img></a> 
 <a href="mailto:junyaqiao@gmail.com"><img src={gmail} alt="gamil icon" className="icon"></img></a>
 
 

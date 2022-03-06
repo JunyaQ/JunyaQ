@@ -59,7 +59,7 @@ function ProjectList(){
           'This is a website that can showing the current weather as well as 5 days prediction based on the name of the city you searched for. It also store the history of search on the left side.',
         Role: 'Sole author',
         Tools: 'HTML, CSS, Javascript, API',
-          webpage: 'https://github.com/JunyaQ/bootcamp-challenge-weatherAPI',
+        webpage: 'https://github.com/JunyaQ/bootcamp-challenge-weatherAPI',
         deployed: "https://junyaq.github.io/bootcamp-challenge-weatherAPI/"
       },
         
@@ -76,6 +76,8 @@ function ProjectList(){
   <img src={require(`../../assets/projects/${i}.jpg`)}className='project_img'></img>
   <h4 className="project_name">{project.project_name}</h4>
     <p className="project_description">{project.description}</p>
+    <p className='Role'>Role: {project.Role}</p>
+    <p className='Tools'>Tools using: {project.Tools}</p>
     <p ><a href={project.webpage} className='link'>view on Github</a></p>
     <p><a href={project.deployed} className='link'>view deployed page</a></p>
   </div>
