@@ -70,7 +70,7 @@ function ProjectList(){
         Tools:'React, CSS, Bootsctap',
         Github:"https://github.com/JunyaQ/MemoryGame",
         Deploy:'https://junyaq.github.io/MemoryGame/'
-      },
+      }
         
     ])
         //project.map((image,i)
